@@ -159,3 +159,15 @@ footer {
     from { transform: translateY(100%); }
     to { transform: translateY(0); }
 }
+/* Upload photo styling */
+.upload-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.upload-photo:hover {
+  transform: scale(1.05);
+}
